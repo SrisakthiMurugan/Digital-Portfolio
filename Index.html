@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - V. Srisakthi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f1f1f1;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Section */
+        header {
+            background: linear-gradient(135deg, #7b1fa2, #00acc1); /* Purple to Cyan Gradient */
+            color: #fff;
+            text-align: center;
+            padding: 60px 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Photo Styling */
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #fff;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            letter-spacing: 2px;
+            margin: 10px 0;
+        }
+
+        header p {
+            font-size: 1.4rem;
+            margin: 5px 0;
+        }
+
+        /* Container */
+        .container {
+            width: 85%;
+            margin: auto;
+            padding: 50px 0;
+        }
+
+        /* Section Styling */
+        .section {
+            background: linear-gradient(135deg, #ffffff, #f0f8ff); /* White-Blue Gradient */
+            margin: 40px 0;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.4s, box-shadow 0.4s;
+        }
+        .section:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
+        }
+
+        /* List Styling */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            background: #7b1fa2; /* Purple Background */
+            color: #fff;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+            transition: background 0.3s, transform 0.3s;
+        }
+        li:hover {
+            background: #00acc1; /* Cyan on hover */
+            transform: scale(1.1);
+        }
+
+        /* Links and Buttons */
+        a {
+            color: #7b1fa2; /* Purple */
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #00acc1; /* Cyan */
+            text-decoration: underline;
+        }
+
+        .download {
+            text-align: center;
+            margin: 50px 0;
+        }
+        .download a {
+            background: #7b1fa2; /* Purple */
+            color: white;
+            padding: 18px 40px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 1.4rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transition: background 0.3s, transform 0.3s;
+        }
+        .download a:hover {
+            background: #00acc1; /* Cyan */
+            transform: scale(1.15);
+        }
+
+        /* Contact Section */
+        .contact {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #00acc1, #7b1fa2); /* Cyan to Purple Gradient */
+            color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+        }
+        .contact a {
+            color: #FFD700; /* Gold */
+            transition: color 0.3s;
+        }
+        .contact a:hover {
+            color: #fff;
+        }
+        .contact i {
+            margin: 0 15px;
+            font-size: 2rem;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .fade-in {
+            animation: fadeIn 1.5s ease-in;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.8rem;
+            }
+            header p {
+                font-size: 1.2rem;
+            }
+            .profile-pic {
+                width: 120px;
+                height: 120px;
+            }
+            .container {
+                width: 95%;
+            }
+            .download a {
+                font-size: 1.1rem;
+                padding: 12px 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header class="fade-in">
+    <img src="C:\Users\vvish\OneDrive\Desktop\sakthi\sakthi photo.jpg" alt="Srisakthi Profile Photo" class="profile-pic">
+    <h1>V. Srisakthi</h1>
+    <p>BCA Student | Developer | Tech Enthusiast</p>
+</header>
+
+<div class="container">
+    <div class="section fade-in">
+        <h2><i class="fas fa-user"></i> About Me</h2>
+        <p>Ambitious and visionary Bachelor of Computer Applications (BCA) student at Terf’s College of Arts and Science. Passionate about coding, innovation, and problem-solving. Striving to make a meaningful impact through technology.</p>
+    </div>
+
+    <div class="section fade-in">
+        <h2><i class="fas fa-code"></i> Skills</h2>
+        <ul>
+            <li>Co-Ordination</li>
+            <li>Critical Thinking</li>
+            <li>Strategic Planning</li>
+            <li>Time Management</li>
+            <li>Programming: C, C++, Java, Python, Linux & Shell Programming</li>
+        </ul>
+    </div>
+
+    <div class="section fade-in">
+        <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+        <p>Bachelor of Computer Applications (2023 - 2026)<br>Terf’s College of Arts and Science</p>
+    </div>
+
+    <div class="section fade-in">
+        <h2><i class="fas fa-certificate"></i> Certifications</h2>
+        <p>Certified in Artificial Intelligence and Cloud Technologies by Microsoft, Infosys, Great-Learning, TCS Ion, and LinkedIn Learning.</p>
+    </div>
+
+    <div class="section fade-in">
+        <h2><i class="fas fa-project-diagram"></i> Projects</h2>
+        <ul>
+            <li>Journey Junkies - Travel Management System</li>
+            <li>Zoombie - AI-Powered Chatbot</li>
+        </ul>
+    </div>
+</div>
+
+<div class="contact fade-in">
+    <h2>Contact Me</h2>
+    <p><i class="fas fa-phone"></i> +91 8270240997</p>
+    <p><i class="fas fa-envelope"></i> <a href="mailto:v.srisakthi.001@gmail.com">v.srisakthi.001@gmail.com</a></p>
+    <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/sri-sakthi-760a9028b" target="_blank">LinkedIn Profile</a></p>
+</div>
+
+<div class="download fade-in">
+    <a href="C:\Users\vvish\OneDrive\Desktop\sakthi\Sakthi Resume.pdf" download="Sakthi_Resume.pdf"><i class="fas fa-download"></i> Download Resume</a>
+</div>
+
+</body>
+</html>
